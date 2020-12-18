@@ -17,7 +17,7 @@ https://meaningful-shaker-mgw.aws-use1.cloud-ara.tyk.io/httpbin-auth-token/
 
 To avoid having to share two different urls for your users who authenticate via Oauth vs. Auth Token, we will create a third api that both groups of users will use as the ingress.  This will be the only url that needs to be shared with your api consumers.
 
-HttpBin - Ingress
+#### HttpBin - Ingress
 https://meaningful-shaker-mgw.aws-use1.cloud-ara.tyk.io/httpbin-ingress/
 
 
