@@ -3,15 +3,15 @@
 You have a single API that needs to be able to separately support requests using both OAuth 2.0 and Authentication Tokens for authentication.
 
 ### How to Solve With Tyk
-We’re going to create 3 apis in Tyk for this effort.  The api definitions have been attached.
+We’re going to create 3 apis in Tyk for this effort.  The api definitions have been attached, you can import these using the Dashboard UI ([instructions](https://tyk.io/docs/tyk-configuration-reference/import-apis/#import-apis-via-the-dashboard)).
 
 First, we’re going to set up the apis for Authorization Token and Oauth 2.0 respectively.  Both API’s are protecting the http://httpbin.org endpoint.
 
-HttpBin - OAuth 2.0
+#### HttpBin - OAuth 2.0
 https://meaningful-shaker-mgw.aws-use1.cloud-ara.tyk.io/httpbin-oauth-2.0/
 
 
-HttpBin - Auth Token
+#### HttpBin - Auth Token
 https://meaningful-shaker-mgw.aws-use1.cloud-ara.tyk.io/httpbin-auth-token/
 
 
